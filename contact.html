@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sifat Tanvir">
+        <title>My Portfolio</title>
+        <link rel="icon" href="html-5.png">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+    <center>
+
+        <h1>Contact Me</h1>
+        <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <input type="text" name="n" id="n" placeholder="Full Name" required>
+            <br>
+            <label for="e">Email</label>
+            <input type="email" name="e" id="e" required>
+            <br>
+            <label for="p">Phone no</label>
+            <input type="tel" name="p" id="p">
+            <br>
+            <label for="a">Age</label>
+            <input type="number" name="a" id="a" max="50" min="30" step="1" value="40">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="s">Student or Graduate?</label><br>
+            <p>Student</p>
+            <input type="radio" name="s" id="s" value="">
+            <p>Graduate</p>
+            <input type="radio" name="s" id="s">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" name="sk" id="sk"> HTML <br>
+            <input type="checkbox" name="sk" id="sk"> CSS <br>
+            <input type="checkbox" name="sk" id="sk"> JS <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Career Goal</legend>
+            <select name="cg" id="cg">
+                <optgroup label="Front End">  
+                <option value="front">React</option>
+                <option value="front">Vue.js</option>
+                </optgroup>
+                <optgroup label="Back End">
+                <option value="back">Node.js</option>
+                <option value="back">Springboot</option>
+                </optgroup>
+                <option value="back">Fullstack</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Write Me Something</legend>
+            <textarea name="write" id="write" cols="50" rows="10" placeholder="Hello world" required></textarea>
+        </fieldset>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </form>
+        <hr>
+        <footer>
+            &copy;Sifat Tanvir <br>
+            <a href="index.html">Back to previous page</a>
+        </footer>
+    </center>
+    </body>
+    
+</html>
